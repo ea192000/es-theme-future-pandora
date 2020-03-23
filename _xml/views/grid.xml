@@ -1,0 +1,47 @@
+<theme>
+    <formatVersion>4</formatVersion>
+	<view name="grid">
+		<container name="gridRowsAndColumns">
+			<size>4 4</size>
+		</container>
+		<container name="gridRowsAndColumns-small">
+			<size>8 8</size>
+		</container>
+		<container name="gridRowsAndColumns-big">
+			<size>2 2</size>
+		</container>
+		<container name="md_grid_margin">
+			<size>0.01 0.01</size>
+		</container>
+		<container name="gridtile_textRow">
+			<size>0.1 0.1</size>
+		</container>
+		<container name="gridtile_textRow_selected">
+			<size>0.1 0.1</size>
+		</container>
+		<image name="logo">
+			<origin>0.5 0.5</origin>
+			<pos>0.5 0.04</pos>
+			<maxSize>0.90 0.1</maxSize>
+			<zIndex>45</zIndex>
+		</image>
+		<text name="md_title">
+			<pos>0.02 0.179</pos>
+		</text>
+		<text name="md_lbl_developer, md_lbl_publisher, md_lbl_genre, md_lbl_players, md_lbl_lastplayed, md_lbl_playcount, md_developer, md_publisher, md_genre, md_players, md_playcount, md_description, md_lbl_rating, md_lbl_releasedate">
+			<size>0.01 0.01</size>
+			<pos>1 1</pos>
+			<zIndex>-200</zIndex>
+		</text>
+		<rating name="md_rating">
+			<size>0.01 0.01</size>
+			<pos>1 1</pos>
+			<zIndex>-200</zIndex>
+		</rating>
+		<datetime name="md_releasedate">
+			<size>0.01 0.01</size>
+			<pos>1 1</pos>
+			<zIndex>-200</zIndex>
+		</datetime>
+	</view>
+</theme>

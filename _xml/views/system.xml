@@ -1,0 +1,41 @@
+<theme>
+    <formatVersion>4</formatVersion>
+    <view name="system">	
+		<carousel name="systemcarousel">
+			<type>horizontal</type>
+			<zIndex>43</zIndex>
+			<logoAlignment>center</logoAlignment>
+			<maxLogoCount>2</maxLogoCount>
+			<pos>0 0.415</pos>
+		</carousel>
+		<text name="systemInfo">
+			<zIndex>47</zIndex>
+			<pos>0.35 0.919</pos>
+		</text>
+		<image name="screenshot_left" extra="true">
+			<pos>0.034 0.075</pos>
+			<size>0.265 0</size>
+			<zIndex>42</zIndex>
+		</image>			
+		<image name="screenshot_center" extra="true">
+			<pos>0.368 0.075</pos>
+			<size>0.265 0</size>
+			<zIndex>42</zIndex>
+		</image>		
+		<image name="screenshot_right" extra="true">
+			<pos>0.701 0.075</pos>
+			<size>0.265 0</size>
+			<zIndex>42</zIndex>
+		</image>
+		<image name="frame_system_top" extra="true">
+			<pos>0 0</pos>
+			<size>1 0</size>
+			<zIndex>43</zIndex>
+		</image>
+		<text name="system_description" extra="true">
+			<pos>0.20 0.695</pos>
+			<size>0.60 0.198</size>
+			<zIndex>45</zIndex>
+		</text>
+	</view>
+</theme>

@@ -1,0 +1,78 @@
+<!--
+Fonts in use:
+	default.ttf:		For almost all text on screen
+	description.ttf:	For system description and game description
+	title.ttf:			For system data and "GAME SELECT" Text on detailed and basic views
+Font sizes:
+	0.0200:				For Game Information on detailed view
+	0.0230:				For Labels of Information on detailed view
+	0.0300:				For System information, help and game list
+	0.0340:				For System description and game description
+	0.0435:				For System Year and Developer on detailed view
+	0.0600:				For "GAME SELECT" Text on detailed and basic views
+-->
+<theme>
+    <formatVersion>4</formatVersion>
+    <view name="system, basic, detailed, video, grid">
+		<helpsystem name="help">
+			<fontPath>./../../_art/fonts/default.ttf</fontPath>
+			<fontSize>0.030</fontSize>
+		</helpsystem>
+		<text name="systemInfo, md_lbl_rating, md_lbl_releasedate, md_lbl_developer, md_lbl_publisher, md_lbl_genre, md_lbl_players, md_lbl_lastplayed, md_lbl_playcount, md_developer, md_publisher, md_genre, md_players, md_playcount, md_title" extra="true">
+			<fontPath>./../../_art/fonts/default.ttf</fontPath>
+		</text>
+		<datetime name="md_releasedate, md_lastplayed">
+			<fontPath>./../../_art/fonts/default.ttf</fontPath>
+			<fontSize>0.020</fontSize>
+			<forceUppercase>1</forceUppercase>
+		</datetime>
+		<text name="systemInfo">
+			<fontSize>0.030</fontSize>
+		</text>
+		<text name="md_lbl_rating, md_lbl_releasedate, md_lbl_developer, md_lbl_publisher, md_lbl_genre, md_lbl_players, md_lbl_lastplayed, md_lbl_playcount">
+			<fontSize>0.023</fontSize>
+			<forceUppercase>1</forceUppercase>
+		</text>
+		<text name="md_developer, md_publisher, md_genre, md_players, md_playcount, md_title">
+			<fontSize>0.020</fontSize>
+			<forceUppercase>1</forceUppercase>
+		</text>
+		<text name="system_description, md_description" extra="true">
+			<fontPath>./../../_art/fonts/description.ttf</fontPath>
+			<fontSize>0.034</fontSize>
+			<forceUppercase>1</forceUppercase>
+		</text>
+		<text name="system_description">
+			<alignment>center</alignment>
+		</text>
+		<text name="md_description">
+			<alignment>left</alignment>
+		</text>
+		<text name="system_name, system_year, system_manufacturer" extra="true">
+			<fontPath>./../../_art/fonts/title.ttf</fontPath>
+			<fontSize>0.0455</fontSize>
+			<forceUppercase>1</forceUppercase>
+		</text>
+		<text name="system_manufacturer" extra="true">
+			<alignment>left</alignment>
+		</text>	
+		<text name="system_name" extra="true">
+			<alignment>center</alignment>
+		</text>	
+		<text name="system_year" extra="true">
+			<alignment>right</alignment>
+		</text>
+		<text name="game_select_a, game_select_b" extra="true">
+			<fontPath>./../../_art/fonts/title.ttf</fontPath>
+			<fontSize>0.060</fontSize>
+			<forceUppercase>1</forceUppercase>
+			<alignment>center</alignment>
+			<lineSpacing>0.93</lineSpacing>
+		</text>
+		<textlist name="gamelist">
+			<fontPath>./../../_art/fonts/default.ttf</fontPath>
+			<fontSize>0.030</fontSize>
+			<forceUppercase>1</forceUppercase>
+		</textlist>	
+	</view>
+</theme>

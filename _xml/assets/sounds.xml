@@ -1,0 +1,35 @@
+<!--
+Sounds in use:
+	listscroll.wav:		Navigation on Game List
+	systemscroll.wav:	Not Working
+	systemselect.wav:	Not Working
+	back.wav:			Only works on Game List comming back from folder
+	launch.wav:			Executing a Game from Game List
+	menuopen.wav:		Only works on Select Menu of Game List
+-->
+<theme>
+    <formatVersion>4</formatVersion>
+	<view name="system, basic, detailed, video, grid">
+		<textlist name="gamelist">
+			<scrollSound>./../../_art/sounds/listscroll.wav</scrollSound>
+		</textlist>	
+		<sound name="systemscroll">
+			<path>./../../_art/sounds/systemscroll.wav</path>
+		</sound>
+		<sound name="systemselect">
+			<path>./../../_art/sounds/systemselect.wav</path>
+		</sound>
+		<sound name="listscroll">
+			<path>./../../_art/sounds/listscroll.wav</path>
+		</sound>
+		<sound name="back">
+			<path>./../../_art/sounds/back.wav</path>
+		</sound>
+		<sound name="launch">
+			<path>./../../_art/sounds/launch.wav</path>
+		</sound>
+		<sound name="menuOpen">
+			<path>./../../_art/sounds/menuopen.wav</path>
+		</sound>
+	</view>
+</theme>

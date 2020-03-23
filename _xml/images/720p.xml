@@ -1,0 +1,39 @@
+<!--
+Images in use:
+	background_common.png:		Background Image of All Views
+	foreground_system.png:		Foreground Image of System View
+	foreground_basic.png:		Foreground Image of Basic View
+	foreground_detailed.png:	Foreground Image of Detailed and Video View
+	foreground_grid.png:		Foreground Image of Grid View
+-->
+<theme>
+    <formatVersion>4</formatVersion>
+    <view name="system, basic, detailed, video, grid">
+		<image name="background" extra="true">
+            <path>./../../_art/images/720p/background_common.png</path>
+        </image>
+		<textlist name="gamelist">
+			<lineSpacing>1.57</lineSpacing>
+		</textlist>	
+	</view>
+	<view name="system">
+		<image name="frame_system_top" extra="true">
+			<path>./../../_art/images/720p/foreground_system.png</path>		
+		</image>
+	</view>
+	<view name="basic">
+		<image name="frame_basic" extra="true">
+			<path>./../../_art/images/720p/foreground_basic.png</path>
+        </image>
+	</view>
+	<view name="detailed, video">
+		<image name="frame_detailed" extra="true">
+			<path>./../../_art/images/720p/foreground_detailed.png</path>
+		</image>
+	</view>
+	<view name="grid">
+		<image name="frame_basic" extra="true">
+			<path>./../../_art/images/720p/foreground_grid.png</path>
+        </image>
+	</view>
+</theme>

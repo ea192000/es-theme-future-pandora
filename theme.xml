@@ -1,0 +1,27 @@
+<!--
+theme name:       Future Pandora
+version:          1.0
+author:           ea192000
+email:            ea192000@gmail.com
+website:          
+license:          creative commons CC-BY-NC-SA
+layout based on:  Futura V theme by FlyingTomahawk and Pandora Box frontend
+comments:         Please read the README.md and license.txt text files for further information regarding licenses and this theme.                        				  
+-->
+<theme>
+	<formatVersion>4</formatVersion>
+	<!-- Assets -->
+	<include>./_xml/assets/default.xml</include>
+	<include>./_xml/assets/fonts.xml</include>
+	<include>./_xml/assets/colors.xml</include>
+	<include>./_xml/assets/sounds.xml</include>
+	<!-- Views -->
+	<include>./_xml/views/system.xml</include>
+	<include>./_xml/views/basic.xml</include>
+	<include>./_xml/views/detailed.xml</include>
+	<include>./_xml/views/grid.xml</include>
+	<!-- Images -->
+	<include>./_xml/images/1080p.xml</include>
+	<!-- Language -->
+	<include>./_xml/language/english.xml</include>
+</theme>

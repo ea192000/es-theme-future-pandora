@@ -1,0 +1,34 @@
+<theme>
+    <formatVersion>3</formatVersion>
+    <include>./../theme.xml</include>
+    <view name="system, basic, detailed, video, grid">
+        <image name="logo">
+            <path>./system.png</path>
+        </image>
+    </view>
+	<view name="system">
+		<text name="system_description" extra="true">
+			<text>The Sega Master System is a third-generation home video game console that was manufactured by Sega. Succeeding the SG-1000, the Master System was released as a direct competitor to the Nintendo Entertainment System (NES) in the third generation of video game consoles.</text>
+		</text>	
+		<image name="screenshot_left" extra="true">
+			<path>./screenshot_left.png</path>			
+		</image>
+		<image name="screenshot_center" extra="true">
+			<path>./screenshot_center.png</path>
+		</image>	
+		<image name="screenshot_right" extra="true">
+			<path>./screenshot_right.png</path>
+		</image>
+	</view>
+	<view name="basic, detailed, video">
+		<text name="system_name" extra="true">
+			<text>Sega Master System</text>
+		</text>		
+		<text name="system_year" extra="true">
+			<text>1985 - 1992</text>
+		</text>	
+		<text name="system_manufacturer" extra="true">
+			<text>Sega Games Company</text>
+		</text>				
+	</view>		
+</theme>

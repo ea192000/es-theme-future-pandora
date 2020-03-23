@@ -1,0 +1,74 @@
+<!--
+Colors in use:
+	00000000: Transparent for carousel
+	FFFFFFFF: White for common text
+	091D6EFF: Blue background color
+	C2FD53FF: Yellow for highlight text
+	B4BCC3FF: Gray for biggest text
+-->
+<theme>
+    <formatVersion>4</formatVersion>
+    <view name="system, basic, detailed, video, grid">
+		<carousel name="systemcarousel">
+			<color>00000000</color>
+		</carousel>
+		<text name="systemInfo">
+			<backgroundColor>00000000</backgroundColor>
+			<color>FFFFFFFF</color>
+		</text>
+		<image name="background" extra="true">
+			<color>091D6EFF</color>
+        </image>
+		<helpsystem name="help">
+			<textColor>FFFFFFFF</textColor>
+			<iconColor>FFFFFFFF</iconColor>
+		</helpsystem>
+		<text name="system_description, md_description,	md_lbl_rating, md_lbl_releasedate, md_lbl_developer, md_lbl_publisher, md_lbl_genre, md_lbl_players, md_lbl_lastplayed, md_lbl_playcount" extra="true">
+			<color>FFFFFFFF</color>
+		</text>
+		<datetime name="md_releasedate, md_lastplayed">
+			<color>C2FD53FF</color>
+		</datetime>
+		<text name="md_developer, md_publisher, md_genre, md_players, md_playcount, md_title">
+			<color>C2FD53FF</color>
+		</text>
+		<text name="system_name, system_year, system_manufacturer" extra="true">
+			<color>B4BCC3FF</color>
+		</text>
+		<textlist name="gamelist">
+			<selectorColor>FFFFFFFF</selectorColor>
+			<selectedColor>C2FD53FF</selectedColor>
+			<primaryColor>FFFFFFFF</primaryColor>
+			<secondaryColor>FFFFFFFF</secondaryColor>
+		</textlist>
+		<text name="game_select_a, game_select_b" extra="true">
+			<color>B4BCC3FF</color>
+		</text>
+		<image name="gridtile_background_selected" >
+			<color>FFFFFFFF</color>
+		</image>
+		<image name="gridtile_background">
+			<color>FFFFFFFF</color>
+		</image>
+		<image name="missing_boxart">
+			<color>FFFFFFFF</color>
+		</image>
+		<image name="gridtile">
+			<color>FFFFFFFF</color>
+		</image>
+		<image name="gridtile_selected">  
+			<color>FFFFFFFF</color>
+		</image>
+		<text name="gridtile_text">
+			<color>FFFFFFFF</color>
+		</text>
+		<text name="md_grid">
+			<color>FFFFFFFF</color>
+			<pos>0.2 0.3</pos>
+			<size>0.605 0.5</size>
+		</text>
+		<text name="md_title">
+			<color>FFFFFFFF</color>
+		</text>
+	</view>
+</theme>

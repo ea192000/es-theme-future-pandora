@@ -1,0 +1,46 @@
+<theme>
+    <formatVersion>4</formatVersion>
+	<view name="basic, detailed, video">
+		<text name="game_select_a, game_select_b" extra="true">
+			<text>
+			S
+			E
+			L
+			E
+			C
+			C
+			I
+			O
+			N
+			A
+			R
+			</text>
+		</text>
+	</view>
+	<view name="detailed, video">
+		<text name="md_lbl_players">
+			<text>Jugadores:</text>
+		</text>
+		<text name="md_lbl_genre">
+			<text>Genero:</text>
+		</text>
+		<text name="md_lbl_developer">
+			<text>Desarrollador:</text>
+		</text>
+		<text name="md_lbl_publisher">
+			<text>Distribuidor:</text>
+		</text>
+		<text name="md_lbl_releasedate">
+			<text>Lanzamiento:</text>
+		</text>
+		<text name="md_lbl_lastplayed">
+			<text>Ultima vez jugado:</text>
+		</text>
+		<text name="md_lbl_playcount">
+			<text>Veces jugadas:</text>
+		</text>
+		<text name="md_lbl_rating">
+			<text>Clasificación:</text>
+		</text>
+	</view>
+</theme>

@@ -1,0 +1,34 @@
+<theme>
+    <formatVersion>3</formatVersion>
+    <include>./../theme.xml</include>
+    <view name="system, basic, detailed, video, grid">
+        <image name="logo">
+            <path>./system.png</path>
+        </image>
+    </view>
+	<view name="system">
+		<text name="system_description" extra="true">
+			<text>MAME (Multiple Arcade Machine Emulator) is a free and open source emulator designed to recreate the hardware of arcade game systems in software on modern personal computers and other platforms. The intention is to preserve gaming history by preventing vintage games from being lost or forgotten.</text>
+		</text>	
+		<image name="screenshot_left" extra="true">
+			<path>./screenshot_left.png</path>			
+		</image>
+		<image name="screenshot_center" extra="true">
+			<path>./screenshot_center.png</path>
+		</image>	
+		<image name="screenshot_right" extra="true">
+			<path>./screenshot_right.png</path>
+		</image>
+	</view>
+	<view name="basic, detailed, video">
+		<text name="system_name" extra="true">
+			<text>MAME</text>
+		</text>		
+		<text name="system_year" extra="true">
+			<text>1997 - 2020</text>	
+		</text>	
+		<text name="system_manufacturer" extra="true">
+			<text>Nicola Salmoria</text>	
+		</text>				
+	</view>		
+</theme>

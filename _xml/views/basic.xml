@@ -1,0 +1,36 @@
+<theme>
+    <formatVersion>4</formatVersion>
+	<view name="basic">
+		<image name="frame_basic" extra="true">
+			<pos>0 0</pos>
+			<size>1 0</size>
+			<zIndex>44</zIndex>
+		</image>
+		<text name="game_select_a" extra="true">
+			<pos>0.012 0.132</pos>
+			<zIndex>45</zIndex>
+		</text>
+		<text name="game_select_b" extra="true">
+			<pos>0.927 0.132</pos>
+			<zIndex>45</zIndex>
+		</text>
+		<image name="logo">
+			<origin>0.5 0.5</origin>
+			<pos>0.5 0.14</pos>
+			<maxSize>0.356 0.155</maxSize>
+			<zIndex>45</zIndex>
+		</image>
+		<textlist name="gamelist">
+			<selectorImagePath>./../../_art/images/selector_basic.png</selectorImagePath>
+			<pos>0.104 0.273</pos>
+			<size>0.793 0.54</size>
+			<alignment>center</alignment>
+			<zIndex>45</zIndex>
+		</textlist>
+		<text name="system_name, system_year, system_manufacturer" extra="true">
+			<pos>1 1</pos>
+			<size>0.1 0.1</size>
+			<zIndex>-200</zIndex>
+		</text>
+	</view>
+</theme>
