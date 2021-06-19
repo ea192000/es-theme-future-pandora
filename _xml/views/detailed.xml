@@ -125,6 +125,20 @@
 			<size>0.2036 0.2805</size>
 			<zIndex>43</zIndex>
         </image>
+		<image name="md_thumbnail">
+			<origin>0.5 0.5</origin>
+			<pos>0.67526 0.3972</pos>
+			<maxSize>0.2036 0.2805</maxSize>
+			<size>0.2036 0.2805</size>
+			<zIndex>42</zIndex>
+		</image>
+		<image name="md_marquee">
+			<origin>0.5 0.5</origin>
+			<pos>0.67526 0.3972</pos>
+			<maxSize>0.2036 0.2805</maxSize>
+			<size>0.2036 0.2805</size>
+			<zIndex>0</zIndex>
+		</image>
 	</view>
 	<view name="detailed">	
 		<image name="md_image">
@@ -132,16 +146,23 @@
 			<pos>0.67526 0.3972</pos>
 			<maxSize>0.2036 0.2805</maxSize>
 			<size>0.2036 0.2805</size>
-			<zIndex>42</zIndex>
-		</image>	
+			<zIndex>43</zIndex>
+		</image>
 	</view>
-	<view name="video">	
-		<image name="md_video">
+	<view name="video">
+		<image name="md_image">
 			<origin>0.5 0.5</origin>
 			<pos>0.67526 0.3972</pos>
 			<maxSize>0.2036 0.2805</maxSize>
 			<size>0.2036 0.2805</size>
-			<zIndex>42</zIndex>
-		</image>	
+			<zIndex>43</zIndex>
+		</image>
+		<video name="md_video">
+			<origin>0.5 0.5</origin>
+			<pos>0.67526 0.3972</pos>
+			<maxSize>0.2036 0.2805</maxSize>
+			<size>0.2036 0.2805</size>
+			<zIndex>44</zIndex>
+		</video>
 	</view>
 </theme>
