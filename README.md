@@ -96,6 +96,54 @@ Create new System Template
              ...
 ```
 
+Changing resolution and language
+--------------------------------
+
+This template has been created to work on 720p and 1080p (originally was thinking to work on old machines), with texts on spanish and english.
+
+There are a way to change from 1080p to 720p and language. All has been configured on file **theme.xml** from root directory:
+
+```xml
+<theme>
+	<formatVersion>4</formatVersion>
+	<!-- Assets -->
+	<include>./_xml/assets/default.xml</include>
+	<include>./_xml/assets/fonts.xml</include>
+	<include>./_xml/assets/colors.xml</include>
+	<include>./_xml/assets/sounds.xml</include>
+	<!-- Views -->
+	<include>./_xml/views/system.xml</include>
+	<include>./_xml/views/basic.xml</include>
+	<include>./_xml/views/detailed.xml</include>
+	<include>./_xml/views/grid.xml</include>
+	<!-- Images -->
+	<include>./_xml/images/1080p.xml</include>
+	<!-- Language -->
+	<include>./_xml/language/english.xml</include>
+</theme>
+```
+
+On folder **/_xml/images/** are 2 xml:
+
+- 720p.xml
+- 1080p.xml
+
+On folder **/_xml/language/** are 2 xml:
+
+- english.xml
+- spanish.xml
+
+If you want to change language to spanish and resolution to 720p, only must change those values on **theme.xml**:
+
+```xml
+	<!-- Images -->
+	<include>./_xml/images/720p.xml</include>
+	<!-- Language -->
+	<include>./_xml/language/spanish.xml</include>
+```
+
+Also you can create your own language xml, or resolution xml using those as reference.
+
 Sample Images
 -------------
 
