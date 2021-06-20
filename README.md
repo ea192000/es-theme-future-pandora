@@ -89,10 +89,10 @@ Create new System Template
              ...
              /test/
                    screenshot_center.png
-				   screenshot_left.png
-				   screenshot_right.png
-				   system.png
-				   theme.xml
+                   screenshot_left.png
+                   screenshot_right.png
+                   system.png
+                   theme.xml
              ...
 ```
 
