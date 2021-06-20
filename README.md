@@ -37,7 +37,7 @@ Create new System Template
 
 - test/system.png
 
-### Create a xml file with the following template and replace:
+### Create a xml file (**theme.xml**) with the following template and replace:
 
 - **{{ system_description }}**: Description of system (to be shown in main screen only).
 - **{{ system_name }}**: Name of the system.
@@ -80,6 +80,20 @@ Create new System Template
 		</text>				
 	</view>		
 </theme>
+```
+
+### Finally, the folder must contain these files:
+
+```
+/future-pandora/
+             ...
+             /test/
+                   screenshot_center.png
+				   screenshot_left.png
+				   screenshot_right.png
+				   system.png
+				   theme.xml
+             ...
 ```
 
 Sample Images
