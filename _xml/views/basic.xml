@@ -22,7 +22,7 @@
 		</image>
 		<textlist name="gamelist">
 			<selectorImagePath>./../../_art/images/selector_basic.png</selectorImagePath>
-			<pos>0.104 0.273</pos>
+			<pos>0.104 0.299</pos>
 			<size>0.793 0.54</size>
 			<alignment>center</alignment>
 			<zIndex>45</zIndex>

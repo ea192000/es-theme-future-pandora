@@ -4,7 +4,7 @@ Colors in use:
 	FFFFFFFF: White for common text
 	091D6EFF: Blue background color
 	C2FD53FF: Yellow for highlight text
-	B4BCC3FF: Gray for biggest text
+	B4BCC3FF: Gray for biggest text and icons
 -->
 <theme>
     <formatVersion>4</formatVersion>
@@ -23,17 +23,14 @@ Colors in use:
 			<textColor>FFFFFFFF</textColor>
 			<iconColor>FFFFFFFF</iconColor>
 		</helpsystem>
-		<text name="system_description, md_description,	md_lbl_rating, md_lbl_releasedate, md_lbl_developer, md_lbl_publisher, md_lbl_genre, md_lbl_players, md_lbl_lastplayed, md_lbl_playcount" extra="true">
+		<text name="system_description, md_description,	md_lbl_rating, md_lbl_releasedate, md_lbl_developer, md_lbl_publisher, md_lbl_genre, md_lbl_players, md_lbl_lastplayed, md_lbl_playcount, md_lbl_franchise, md_lbl_subsystem, md_lbl_region, md_lbl_language, md_lbl_rate, md_lbl_input, md_lbl_aspect" extra="true">
 			<color>FFFFFFFF</color>
 		</text>
 		<datetime name="md_releasedate, md_lastplayed">
 			<color>C2FD53FF</color>
 		</datetime>
-		<text name="md_developer, md_publisher, md_genre, md_players, md_playcount, md_title">
+		<text name="md_developer, md_publisher, md_genre, md_playcount, md_title, md_franchise, md_subsystem">
 			<color>C2FD53FF</color>
-		</text>
-		<text name="system_name, system_year, system_manufacturer" extra="true">
-			<color>B4BCC3FF</color>
 		</text>
 		<textlist name="gamelist">
 			<selectorColor>FFFFFFFF</selectorColor>
@@ -41,7 +38,7 @@ Colors in use:
 			<primaryColor>FFFFFFFF</primaryColor>
 			<secondaryColor>FFFFFFFF</secondaryColor>
 		</textlist>
-		<text name="game_select_a, game_select_b" extra="true">
+		<text name="system_name, system_year, system_manufacturer, game_select_a, game_select_b, md_players, md_region, md_language, md_rate, md_input, md_aspect" extra="true">
 			<color>B4BCC3FF</color>
 		</text>
 		<image name="gridtile_background_selected" >

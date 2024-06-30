@@ -18,7 +18,7 @@ Font sizes:
 			<fontPath>./../../_art/fonts/default.ttf</fontPath>
 			<fontSize>0.030</fontSize>
 		</helpsystem>
-		<text name="systemInfo, md_lbl_rating, md_lbl_releasedate, md_lbl_developer, md_lbl_publisher, md_lbl_genre, md_lbl_players, md_lbl_lastplayed, md_lbl_playcount, md_developer, md_publisher, md_genre, md_players, md_playcount, md_title" extra="true">
+		<text name="systemInfo, md_lbl_rating, md_lbl_releasedate, md_lbl_developer, md_lbl_publisher, md_lbl_genre, md_lbl_players, md_lbl_lastplayed, md_lbl_playcount, md_lbl_franchise, md_lbl_subsystem, md_lbl_region, md_lbl_language, md_lbl_rate, md_lbl_input, md_lbl_aspect, md_developer, md_publisher, md_genre, md_playcount, md_title, md_franchise, md_subsystem" extra="true">
 			<fontPath>./../../_art/fonts/default.ttf</fontPath>
 		</text>
 		<datetime name="md_releasedate, md_lastplayed">
@@ -29,12 +29,16 @@ Font sizes:
 		<text name="systemInfo">
 			<fontSize>0.030</fontSize>
 		</text>
-		<text name="md_lbl_rating, md_lbl_releasedate, md_lbl_developer, md_lbl_publisher, md_lbl_genre, md_lbl_players, md_lbl_lastplayed, md_lbl_playcount">
+		<text name="md_lbl_rating, md_lbl_releasedate, md_lbl_developer, md_lbl_publisher, md_lbl_genre, md_lbl_players, md_lbl_lastplayed, md_lbl_playcount, md_lbl_franchise, md_lbl_subsystem, md_lbl_region, md_lbl_language, md_lbl_rate, md_lbl_input, md_lbl_aspect">
 			<fontSize>0.023</fontSize>
 			<forceUppercase>1</forceUppercase>
 		</text>
-		<text name="md_developer, md_publisher, md_genre, md_players, md_playcount, md_title">
+		<text name="md_developer, md_publisher, md_genre, md_playcount, md_title, md_franchise, md_subsystem">
 			<fontSize>0.020</fontSize>
+			<forceUppercase>1</forceUppercase>
+		</text>
+		<text name="md_players, md_region, md_language, md_rate, md_input, md_aspect">
+			<fontSize>0.0300</fontSize>
 			<forceUppercase>1</forceUppercase>
 		</text>
 		<text name="system_description, md_description" extra="true">

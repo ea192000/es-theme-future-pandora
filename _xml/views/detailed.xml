@@ -37,16 +37,16 @@
 		</text>
 		<textlist name="gamelist">
 			<selectorImagePath>./../../_art/images/selector_detailed.png</selectorImagePath>
-			<pos>0.0953 0.23</pos>
-			<size>0.4047 0.54</size>
+			<pos>0.0953 0.215</pos>
+			<size>0.4047 0.58</size>
 			<alignment>left</alignment>
 			<zIndex>45</zIndex>
 		</textlist>
-		<text name="md_lbl_releasedate, md_lbl_developer, md_lbl_publisher, md_lbl_genre, md_lbl_players">
+		<text name="md_lbl_releasedate, md_lbl_developer, md_lbl_publisher, md_lbl_genre, md_lbl_subsystem">
 			<size>0.24 0.01</size>
 			<zIndex>45</zIndex>
 		</text>
-		<text name="md_developer, md_publisher, md_genre, md_players">
+		<text name="md_developer, md_publisher, md_genre, md_subsystem">
 			<size>0.15 0.02</size>
 			<zIndex>45</zIndex>
 		</text>
@@ -59,11 +59,11 @@
 			<size>0.338 0.18</size>
 			<zIndex>45</zIndex>
 		</text>
-		<text name="md_lbl_players">
+		<text name="md_lbl_subsystem">
 			<pos>0.81 0.26</pos>
 			<zIndex>45</zIndex>
 		</text>
-		<text name="md_players">
+		<text name="md_subsystem">
 			<pos>0.82 0.28</pos>
 			<zIndex>45</zIndex>
 		</text>
@@ -111,12 +111,42 @@
 		</datetime>
 		<rating name="md_rating">
 			<origin>0.5 0.5</origin>
-			<pos>0.690625 0.1916</pos>
+			<pos>0.690625 0.173</pos>
 			<size>0.14 0.04</size>
 			<unfilledPath>./../../_art/images/star_hollow.png</unfilledPath>
 			<filledPath>./../../_art/images/star_full.png</filledPath>
 			<zIndex>46</zIndex>
 		</rating>
+		<text name="md_players">
+			<origin>0 0.5</origin>
+			<pos>0.804 0.175</pos>
+			<zIndex>40</zIndex>
+		</text>
+		<text name="md_language">
+			<origin>0 0.5</origin>
+			<pos>0.8355 0.173</pos>
+			<zIndex>40</zIndex>
+		</text>
+		<text name="md_input">
+			<origin>0 0.5</origin>
+			<pos>0.8638 0.173</pos>
+			<zIndex>40</zIndex>
+		</text>
+		<text name="md_aspect">
+			<origin>0 0.5</origin>
+			<pos>0.891 0.177</pos>
+			<zIndex>40</zIndex>
+		</text>
+		<text name="md_rate">
+			<origin>0 0.5</origin>
+			<pos>0.92 0.176</pos>
+			<zIndex>40</zIndex>
+		</text>
+		<text name="md_region">
+			<origin>0 0.5</origin>
+			<pos>0.9465 0.175</pos>
+			<zIndex>40</zIndex>
+		</text>
 		<image name="image_top" extra="true">
             <path>./../../_art/images/image_overlay.png</path>
 			<origin>0.5 0.5</origin>

@@ -22,7 +22,7 @@
 			<text>Jugadores:</text>
 		</text>
 		<text name="md_lbl_genre">
-			<text>Genero:</text>
+			<text>Género:</text>
 		</text>
 		<text name="md_lbl_developer">
 			<text>Desarrollador:</text>
@@ -41,6 +41,27 @@
 		</text>
 		<text name="md_lbl_rating">
 			<text>Clasificación:</text>
+		</text>
+		<text name="md_lbl_franchise">
+			<text>Franquicia:</text>
+		</text>
+		<text name="md_lbl_subsystem">
+			<text>Subsistema:</text>
+		</text>
+		<text name="md_lbl_region">
+			<text>Región:</text>
+		</text>
+		<text name="md_lbl_language">
+			<text>Language:</text>
+		</text>
+		<text name="md_lbl_rate">
+			<text>Clasificación:</text>
+		</text>
+		<text name="md_lbl_input">
+			<text>Dispositivo:</text>
+		</text>
+		<text name="md_lbl_aspect">
+			<text>Aspecto:</text>
 		</text>
 	</view>
 </theme>
