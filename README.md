@@ -1,6 +1,8 @@
 # Future Pandora
 
-This repository contains the EmulationStation theme "Future Pandora" 
+This repository contains the EmulationStation theme "Future Pandora".
+
+IMPORTANT: Since 06/2024, this theme has been updated with the latest release from [github.com/ea192000/EmulationStation](https://github.com/ea192000/EmulationStation)
 
 About
 -----
@@ -157,7 +159,7 @@ Sample Images
 
 ## **Detailed / Video view**
 
-![Image](https://i.imgur.com/O30tpPV.png)
+![Image](https://i.imgur.com/MMqKMst.png)
 
 ## **Grid view**
 
