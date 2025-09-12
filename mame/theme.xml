@@ -8,7 +8,7 @@
     </view>
 	<view name="system">
 		<text name="system_description" extra="true">
-			<text>MAME (Multiple Arcade Machine Emulator) is a free and open source emulator designed to recreate the hardware of arcade game systems in software on modern personal computers and other platforms. The intention is to preserve gaming history by preventing vintage games from being lost or forgotten.</text>
+			<text>An arcade game or coin-op game is a coin-operated entertainment machine typically installed in public businesses such as restaurants, bars and amusement arcades. Arcade video games were first introduced in the early 1970s and use electronic or computerized circuitry to take input from the player and translate that to an electronic display such as a monitor or television set.</text>
 		</text>	
 		<image name="screenshot_left" extra="true">
 			<path>./screenshot_left.png</path>			
@@ -22,13 +22,13 @@
 	</view>
 	<view name="basic, detailed, video">
 		<text name="system_name" extra="true">
-			<text>MAME</text>
+			<text>Arcade Machine</text>
 		</text>		
 		<text name="system_year" extra="true">
-			<text>1997 - 2020</text>	
+			<text>1970 - 2025</text>	
 		</text>	
 		<text name="system_manufacturer" extra="true">
-			<text>Nicola Salmoria</text>	
+			<text>Nutting Associates</text>	
 		</text>				
 	</view>		
 </theme>

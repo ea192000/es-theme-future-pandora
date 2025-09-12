@@ -1,0 +1,34 @@
+<theme>
+	<formatVersion>3</formatVersion>
+	<include>./../theme.xml</include>
+	<view name="system, basic, detailed, video, grid">
+		<image name="logo">
+			<path>./system.png</path>
+		</image>
+	</view>
+	<view name="system">
+		<text name="system_description" extra="true">
+			<text>The Game & Watch is a line of handheld electronic games created by Nintendo. Released from 1980 to 1991, these devices were the brainchild of designer Gunpei Yokoi. Many toy companies followed in the footsteps of Game & Watch, such as Tiger Electronics. Nintendo's Game & Watch units were eventually superseded by the original Game Boy.</text>
+		</text>	
+		<image name="screenshot_left" extra="true">
+			<path>./screenshot_left.png</path>
+		</image>
+		<image name="screenshot_center" extra="true">
+			<path>./screenshot_center.png</path>
+		</image>	
+		<image name="screenshot_right" extra="true">
+			<path>./screenshot_right.png</path>
+		</image>
+	</view>
+	<view name="basic, detailed, video">
+		<text name="system_name" extra="true">
+			<text>Game & Watch</text>
+		</text>
+		<text name="system_year" extra="true">
+			<text>1980 - 1991</text>
+		</text>
+		<text name="system_manufacturer" extra="true">
+			<text>Nintendo Company</text>
+		</text>
+	</view>
+</theme>

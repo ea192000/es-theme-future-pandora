@@ -8,27 +8,27 @@
     </view>
 	<view name="system">
 		<text name="system_description" extra="true">
-			<text>Future Pinball is a real time Pinball Development System. It allows you to design and play your very own pinball simulation in True real time 3D. It uses Advanced Physics to provide the best possible Simulation of a true to life pinball machine.</text>
-		</text>	
+			<text>Pinball games are a family of games in which a ball is propelled into a specially designed table where it bounces off various obstacles, scoring points either en route or when it comes to rest. The biggest pinball machine manufacturers historically include Bally Manufacturing, Gottlieb, Williams Electronics and Stern Pinball.</text>
+		</text>
 		<image name="screenshot_left" extra="true">
 			<path>./screenshot_left.png</path>			
 		</image>
 		<image name="screenshot_center" extra="true">
 			<path>./screenshot_center.png</path>
-		</image>	
+		</image>
 		<image name="screenshot_right" extra="true">
 			<path>./screenshot_right.png</path>
 		</image>
 	</view>
 	<view name="basic, detailed, video">
 		<text name="system_name" extra="true">
-			<text>Future Pinball</text>
+			<text>Pinball Machine</text>
 		</text>		
 		<text name="system_year" extra="true">
-			<text>2008 - 2020</text>	
-		</text>	
+			<text>1931 - 2025</text>	
+		</text>
 		<text name="system_manufacturer" extra="true">
-			<text>Christopher Leathley</text>	
-		</text>				
-	</view>		
+			<text>Gottlieb Company</text>	
+		</text>
+	</view>
 </theme>

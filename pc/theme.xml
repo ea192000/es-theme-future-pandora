@@ -8,7 +8,7 @@
     </view>
 	<view name="system">
 		<text name="system_description" extra="true">
-			<text>MS-DOS (acronym for Microsoft Disk Operating System) is a discontinued operating system for x86-based personal computers mostly developed by Microsoft. It was the most commonly used member of the DOS family of operating systems, and was the main operating system for IBM PC compatible personal computers during the 1980s and the early 1990s.</text>
+			<text>Personal Computer usually refers to IBM PC compatible computers. Since the early 1990s, Microsoft operating systems and CPUs based on Intel's x86 architecture have dominated the personal computer market, and today the term PC normally refers to the ubiquitous Wintel platform, or to Windows PCs in general, to the point where software for Windows is marketed as "for PC".</text>
 		</text>	
 		<image name="screenshot_left" extra="true">
 			<path>./screenshot_left.png</path>			
@@ -22,10 +22,10 @@
 	</view>
 	<view name="basic, detailed, video">
 		<text name="system_name" extra="true">
-			<text>MS-Dos</text>
+			<text>Personal Computer</text>
 		</text>		
 		<text name="system_year" extra="true">
-			<text>1981 - 2000</text>
+			<text>1985 - 2025</text>
 		</text>	
 		<text name="system_manufacturer" extra="true">
 			<text>Microsoft Corporation</text>

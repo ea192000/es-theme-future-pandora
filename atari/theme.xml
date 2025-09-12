@@ -1,17 +1,17 @@
 <theme>
-    <formatVersion>3</formatVersion>
-    <include>./../theme.xml</include>
-    <view name="system, basic, detailed, video, grid">
-        <image name="logo">
-            <path>./system.png</path>
-        </image>
-    </view>
+	<formatVersion>3</formatVersion>
+	<include>./../theme.xml</include>
+	<view name="system, basic, detailed, video, grid">
+		<image name="logo">
+			<path>./system.png</path>
+		</image>
+	</view>
 	<view name="system">
 		<text name="system_description" extra="true">
 			<text>The original Atari, founded in Sunnyvale, California, in 1972 by Nolan Bushnell and Ted Dabney, was a pioneer in arcade games, home video game consoles, and home computers. The company's products, such as Pong and the Atari 2600, helped define the electronic entertainment industry from the 1970s to the mid 1980s.</text>
 		</text>	
 		<image name="screenshot_left" extra="true">
-			<path>./screenshot_left.png</path>			
+			<path>./screenshot_left.png</path>
 		</image>
 		<image name="screenshot_center" extra="true">
 			<path>./screenshot_center.png</path>
@@ -30,5 +30,5 @@
 		<text name="system_manufacturer" extra="true">
 			<text>Atari Corporation</text>
 		</text>
-	</view>		
+	</view>
 </theme>

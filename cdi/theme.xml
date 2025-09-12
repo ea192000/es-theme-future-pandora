@@ -1,0 +1,34 @@
+<theme>
+	<formatVersion>3</formatVersion>
+	<include>./../theme.xml</include>
+	<view name="system, basic, detailed, video, grid">
+		<image name="logo">
+			<path>./system.png</path>
+		</image>
+	</view>
+	<view name="system">
+		<text name="system_description" extra="true">
+			<text>The Compact Disc-Interactive (CD-i) is a digital optical disc data storage format as well as a hardware platform, co-developed and marketed by Dutch company Philips and Japanese company Sony. The first CD-i system was produced by Philips in collaboration with Kyocera in 1988. By 1994, sales of CD-i systems had begun to slow, and in 1998 the product line was dropped.</text>
+		</text>	
+		<image name="screenshot_left" extra="true">
+			<path>./screenshot_left.png</path>
+		</image>
+		<image name="screenshot_center" extra="true">
+			<path>./screenshot_center.png</path>
+		</image>
+		<image name="screenshot_right" extra="true">
+			<path>./screenshot_right.png</path>
+		</image>
+	</view>
+	<view name="basic, detailed, video">
+		<text name="system_name" extra="true">
+			<text>Philips CD-i</text>
+		</text>
+		<text name="system_year" extra="true">
+			<text>1991 - 1998</text>
+		</text>	
+		<text name="system_manufacturer" extra="true">
+			<text>Philips Corporation</text>
+		</text>
+	</view>
+</theme>

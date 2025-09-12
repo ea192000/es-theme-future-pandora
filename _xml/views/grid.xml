@@ -39,6 +39,7 @@
 			<zIndex>-200</zIndex>
 		</rating>
 		<datetime name="md_releasedate">
+			<format>%Y/%m/%d</format>
 			<size>0.1 0.1</size>
 			<pos>1 1</pos>
 			<zIndex>-200</zIndex>
