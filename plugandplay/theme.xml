@@ -1,0 +1,34 @@
+<theme>
+	<formatVersion>3</formatVersion>
+	<include>./../theme.xml</include>
+	<view name="system, basic, detailed, video, grid">
+		<image name="logo">
+			<path>./system.png</path>
+		</image>
+	</view>
+	<view name="system">
+		<text name="system_description" extra="true">
+			<text>A handheld TV game or plug and play game is an integrated home video game console and game controller, usually battery powered, which connects directly to a television. The game software is built directly into the unit, which is typically designed to look like a toy or classic game console controller with the addition of a composite video cable to connect the unit.</text>
+		</text>	
+		<image name="screenshot_left" extra="true">
+			<path>./screenshot_left.png</path>
+		</image>
+		<image name="screenshot_center" extra="true">
+			<path>./screenshot_center.png</path>
+		</image>
+		<image name="screenshot_right" extra="true">
+			<path>./screenshot_right.png</path>
+		</image>
+	</view>
+	<view name="basic, detailed, video">
+		<text name="system_name" extra="true">
+			<text>Plug & Play</text>
+		</text>
+		<text name="system_year" extra="true">
+			<text>2002 - 2025</text>
+		</text>
+		<text name="system_manufacturer" extra="true">
+			<text>Jakks Pacific</text>
+		</text>
+	</view>
+</theme>

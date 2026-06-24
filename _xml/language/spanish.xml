@@ -22,7 +22,7 @@
 			<text>Jugadores:</text>
 		</text>
 		<text name="md_lbl_genre">
-			<text>Género:</text>
+			<text>Genero:</text>
 		</text>
 		<text name="md_lbl_developer">
 			<text>Desarrollador:</text>
@@ -55,7 +55,7 @@
 			<text>Language:</text>
 		</text>
 		<text name="md_lbl_rate">
-			<text>Clasificación:</text>
+			<text>Clasificacion:</text>
 		</text>
 		<text name="md_lbl_input">
 			<text>Dispositivo:</text>
